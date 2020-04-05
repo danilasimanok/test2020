@@ -8,6 +8,6 @@ public class DriversSuggestorTest {
                 driver1 = "60.019475,30.297782",
                 driver2 = "59.876186,30.262420";
         DriversSuggestor suggestor = new DriversSuggestor(passanger);
-        Assertions.assertEquals(1, suggestor.compare(driver1, driver2));
+        Assertions.assertEquals(-1, suggestor.compare(driver1, driver2));
     }
 }
