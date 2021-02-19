@@ -10,7 +10,7 @@ public class DriversSuggestor implements Comparator<String> {
 
     private static final String ORIGIN = "59.98055,30.32412",
         BASE_URL = "https://maps.googleapis.com/maps/api/directions/json";
-    public static final String KEY = "AIzaSyAfeB_N3etwS9nnISWWkVnLruQLWqWCyZQ";
+    public static final String KEY = "paste_your_key_here";
 
     String destination;
     int durationOfBringingUp;
